@@ -1,0 +1,8 @@
+{
+  "name": "apple-iap-mock-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "id.muhammad.syafiq@gmail.com",
+  "license": "MIT",
+  "private": true
+}
