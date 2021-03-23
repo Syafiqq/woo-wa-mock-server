@@ -13,7 +13,7 @@ const insertRawS2S = async (s2s, now) => {
         const buff = Buffer.from(JSON.stringify(obj));
         const bufferStream = new stream.PassThrough();
         bufferStream.end(buff);
-        const file = bucket.file(`debug/raw-s2s/${now.getTime()}.json`);
+        const file = bucket.file(`debug/woo-wa/web-hook/${now.getTime()}.json`);
         await new Promise( (resolutionFunc,rejectionFunc) => {
             bufferStream.pipe(file.createWriteStream({
                 metadata: {

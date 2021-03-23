@@ -1,0 +1,7 @@
+POST http://localhost:3000/s2s
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
